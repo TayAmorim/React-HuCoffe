@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --emphasis-header: #7c412c;
+  --emphasis-plan: #f8b9a2;
+  --blue-hover: #1775a6;
+  --text: #828799;
+  --container: 6rem;
+  --container-card: 30px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #e5e5e5;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  :root {
+    --container: 2rem;
+  }
+}

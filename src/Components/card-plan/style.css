@@ -1,0 +1,158 @@
+.card-plan {
+  box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  border-radius: 8px;
+  top: 30%;
+  background: #ffffff;
+  transform: scale(0.97);
+  transition: all 0.5s;
+}
+
+.card-plan:hover {
+  cursor: pointer;
+  transform: scale(1);
+  transition: all 0.5s;
+}
+
+.card-type,
+.card-price,
+.card-info,
+.container-card {
+  padding-inline: var(--container-card);
+  padding-block: 5px;
+}
+
+.container-card {
+  margin-top: var(--container-card);
+}
+
+.card-plan-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-plan h3 {
+  font-size: 18px;
+}
+
+.card-price {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.card-price p:first-child {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.card-price p:last-child {
+  color: var(--text);
+}
+
+.card-info p {
+  max-width: 18.187rem;
+  font-size: 0.875rem;
+  color: var(--text);
+}
+
+.card-info p:first-child {
+  margin-bottom: 20px;
+  line-height: 19.07px;
+}
+
+.card-info p:first-child::after {
+  content: " ";
+  display: inline-block;
+  width: 295px;
+  height: 1px;
+  background: #eeeeee;
+}
+
+.card-plan-item {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-plan-item p {
+  color: var(--text);
+}
+
+.btn-sign {
+  padding: 10px 110px;
+  background: none;
+  border: 1px solid var(--blue-hover);
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: var(--blue-hover);
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.5s;
+  margin-bottom: var(--container-card);
+}
+
+.btn-sign:hover {
+  background: var(--emphasis-header);
+  color: #ffffff;
+  border: 1px solid var(--emphasis-header);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.card-type h3 {
+  font-size: 16px;
+}
+
+.type-text {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  margin-block: 15px;
+  color: var(--blue-hover);
+}
+
+.type-text button {
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid var(--blue-hover);
+  padding: 5px 20px;
+  border-radius: 10px;
+  background: none;
+  color: var(--blue-hover);
+  transition: all 0.5s;
+  transform: scale(1);
+}
+
+.type-text button.on {
+  background: var(--emphasis-header);
+  border-color: var(--emphasis-header);
+  color: white;
+  transition: all 0.5s;
+  transform: scale(0.98);
+}
+
+.card-popular {
+  color: var(--blue-hover);
+  margin: 0;
+  background: #f8b9a2;
+  padding: 24px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-popular::after {
+  content: "Popular";
+  padding: 8px 24px;
+  font-size: 12px;
+  color: white;
+  background: var(--emphasis-header);
+  border-radius: 40px;
+}
