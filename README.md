@@ -1,5 +1,5 @@
 <h1 align="center">
-   <p>Vet. Sidebar</p>
+   <p>HuCoffe</p>
 </h1>
 
 <p align="center">
@@ -12,19 +12,18 @@
 </p>
 
 <h4 align="center"> 
-	🎉 Sidebar - Concluído  🎉
+	🎉 HuCoffe - Concluído  🎉
 </h4>
 
 ## Sobre
 
-Aplicação sidebar, que muda seu estado ao clicar no ícone do menu, desenvolvido com <a href="https://pt-br.reactjs.org/" target="_blank">React.</a>
-Este projeto foi proposta como desafio da modalidade Discover da <a href="https://www.rocketseat.com.br/" target="_blank">Rocketseat.</a>
+Página web contendo uma tabela com as opções de preços/planos de uma loja de café, desenvolvido com <a href="https://pt-br.reactjs.org/" target="_blank">React.</a>
+Este projeto foi proposto como desafio da modalidade Discover da <a href="https://www.rocketseat.com.br/" target="_blank">Rocketseat.</a>
 
 ## Carcterísticas
 
-- Sidebar com estado "aberto" e "fechado"
-- Estado aberto mostra os ícones e texto
-- Estado fechado visualização apenas os ícones
+- Alteração do componente CardPlan dinamicamente
+- Desenvolvimento com React.
 
 ## Tecnologias
 
@@ -39,13 +38,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 O layout da aplicação original está disponível no Figma:
 
-<a href="https://www.figma.com/file/iOuqAlZvhAMkkfjCMFyc7Y/DD-%2F-Sidebar-Responsiva/duplicate">
+<a href="https://www.figma.com/file/sSq019RDznSm3eyZoo3OHc/DD-Pricing-Table/duplicate">
   <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
 </a>
 
 <p style="display: flex;  justify-content: left; gap: 10px">
-  <img alt="countdown" title="#countdown" src="./src/assets/capa.png" width="350px">
-  <img alt="countdown" title="#countdown" src="./src/assets/capa-open.png" width="350px">
+  <img alt="countdown" title="#countdown" src="./src/assets/capa.png" width="1200px" style='border-radius: 4px'>
 </p>
 
 ## Pre-requisitos
@@ -74,19 +72,20 @@ $ npm run dev
 
 ```css
 :root {
-  --body-bg-color: #dce4e3;
-  --green: #18c29c;
-  --light-green: #8ed7c6;
-  --light-grey: #dce4e3;
-  --text-color: #084236;
+  --emphasis-header: #7c412c;
+  --emphasis-plan: #f8b9a2;
+  --blue-hover: #1775a6;
+  --text: #828799;
+  --container: 6rem;
+  --container-card: 30px;
 }
 ```
 
 ### Tipo de Fonte:
 
-- Font-family: Poppins
+- font-family: "Open Sans", sans-serif;
 
-- Font-weight: 400 e 500
+- Font-weight: 400, 600 e 700
 
 <a href="https://www.figma.com/file/EYimYoWWhNVjDZdc0zv1Vw/DD-Portfolio-Copy?fuid=1100112420700070907">
   <img alt="Made by tgmarinho" src="https://img.shields.io/badge/%20Fonte%20-Google Fonts-%2304D361">
