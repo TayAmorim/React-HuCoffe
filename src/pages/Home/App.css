@@ -34,28 +34,22 @@ main {
   flex-wrap: wrap;
 }
 
-@media (min-width: 321px) and (max-width: 412px) {
+@media (max-width: 1440px) {
   main {
-    top: 40%;
-  }
-  .header-home {
-    height: 50vh;
-  }
-  .header-text h1 {
-    font-size: 1.87rem;
-  }
-  .header-text p {
-    font-size: 1rem;
+    top: 30%;
+    gap: 10px;
   }
 }
 
-@media (min-width: 414px) and (max-width: 425px) {
+@media (max-width: 768px) {
   main {
-    top: 28%;
+    top: 25%;
   }
-
+  .header-home {
+    height: 30vh;
+  }
   .header-text h1 {
-    font-size: 1.87rem;
+    font-size: 1.37rem;
   }
   .header-text p {
     font-size: 1rem;
