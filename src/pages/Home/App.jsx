@@ -11,7 +11,7 @@ const plano500 = [
 const plano3000 = [
   "2 Microlotes com 500g",
   "Caneca exclusiva com seu nome",
-  "2 pacotes de cafés especial de 3500kg ",
+  "2 pacotes de cafés especial de 1kg ",
   "Kit Koar acrílico",
 ];
 
