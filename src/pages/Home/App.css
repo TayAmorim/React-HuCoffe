@@ -34,9 +34,9 @@ main {
   flex-wrap: wrap;
 }
 
-@media (min-width: 319px) and (max-width: 374px) {
+@media (min-width: 321px) and (max-width: 412px) {
   main {
-    top: 30%;
+    top: 40%;
   }
   .header-home {
     height: 50vh;
@@ -49,7 +49,7 @@ main {
   }
 }
 
-@media (min-width: 375px) and (max-width: 425px) {
+@media (min-width: 414px) and (max-width: 425px) {
   main {
     top: 28%;
   }
