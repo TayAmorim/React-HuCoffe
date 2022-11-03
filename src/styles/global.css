@@ -18,8 +18,14 @@ body {
   background: #e5e5e5;
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 319px) and (max-width: 411px) {
   :root {
     --container: 2rem;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+  :root {
+    --container: 3rem;
   }
 }

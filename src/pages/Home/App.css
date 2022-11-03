@@ -34,15 +34,30 @@ main {
   flex-wrap: wrap;
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 319px) and (max-width: 374px) {
   main {
-    top: 30%;
+    top: 38%;
+  }
+  .header-home {
+    height: 50vh;
   }
   .header-text h1 {
     font-size: 1.87rem;
   }
   .header-text p {
     font-size: 1rem;
-    margin-inline: var(--container);
+  }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+  main {
+    top: 28%;
+  }
+
+  .header-text h1 {
+    font-size: 1.87rem;
+  }
+  .header-text p {
+    font-size: 1rem;
   }
 }
