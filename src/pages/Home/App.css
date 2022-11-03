@@ -36,7 +36,7 @@ main {
 
 @media (min-width: 319px) and (max-width: 374px) {
   main {
-    top: 38%;
+    top: 30%;
   }
   .header-home {
     height: 50vh;
