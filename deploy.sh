@@ -10,5 +10,6 @@ npm run build
 echo > .nojekyll
 
 git add ./dist
+git add .nojekyll
 git commit -m 'deploy'
 git push
